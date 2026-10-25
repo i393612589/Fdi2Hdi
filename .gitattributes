@@ -1,0 +1,16 @@
+# Normalise line endings so the repo is usable on Linux/macOS too:
+# source and docs use LF in the repository regardless of core.autocrlf.
+* text=auto eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+*.bat  text eol=crlf
+
+# binary disk images are never converted
+*.hdi  binary
+*.fdi  binary
+*.d88  binary
+*.thd  binary
+*.hdd  binary
+*.hdn  binary

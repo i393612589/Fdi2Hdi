@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# generated disk images (large binaries — do not commit)
+*.HDI
+*.hdi
+*.FDI
+*.fdi
+*.D88
+*.d88
+*.THD
+*.thd
+*.HDD
+*.hdd
+*.HDN
+*.hdn
+!docs/sample/*.HDI
+
+# local output
+out/
+build/
+roundtrip.*
+GAME.*
+DEBUG.*
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
